@@ -1,0 +1,858 @@
+I02-08 16:24:57.699 28445-28475/com.medicom.maven.debug D/OpenGLRenderer: endAllActiveAnimators on 0x75f8101000 (RippleDrawable) with handle 0x75f54cf000
+02-08 16:24:58.209 28445-28452/com.medicom.maven.debug I/zygote64: Do partial code cache collection, code=246KB, data=171KB
+02-08 16:24:58.209 28445-28452/com.medicom.maven.debug I/zygote64: After code cache collection, code=246KB, data=171KB
+02-08 16:24:58.209 28445-28452/com.medicom.maven.debug I/zygote64: Increasing code cache capacity to 1024KB
+02-08 16:25:10.914 28445-28445/com.medicom.maven.debug D/TasksManager: Start new task LoginTask{login=maventests+patient+17@gmail.com, password=Password11}:828857960
+02-08 16:25:10.981 28445-28716/com.medicom.maven.debug D/OkHttp: --> POST https://test-maven.cogniance.com/api/v1/login http/1.1
+02-08 16:25:10.981 28445-28716/com.medicom.maven.debug D/OkHttp: Content-Type: application/json; charset=UTF-8
+02-08 16:25:10.981 28445-28716/com.medicom.maven.debug D/OkHttp: Content-Length: 67
+02-08 16:25:10.981 28445-28716/com.medicom.maven.debug D/OkHttp: Not-Authenticate: No-Matter
+02-08 16:25:10.981 28445-28716/com.medicom.maven.debug D/OkHttp: Ignore_Unauthorized: true
+02-08 16:25:10.982 28445-28716/com.medicom.maven.debug D/OkHttp: {"login":"maventests+patient+17@gmail.com","password":"Password11"}
+02-08 16:25:10.982 28445-28716/com.medicom.maven.debug D/OkHttp: --> END POST (67-byte body)
+02-08 16:25:11.001 28445-28452/com.medicom.maven.debug I/zygote64: Compiler allocated 4MB to compile void android.view.View.<init>(android.content.Context, android.util.AttributeSet, int, int)
+02-08 16:25:11.138 28445-28716/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/login (156ms)
+02-08 16:25:11.138 28445-28716/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:11.138 28445-28716/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:11 GMT
+02-08 16:25:11.138 28445-28716/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:11.138 28445-28716/com.medicom.maven.debug D/OkHttp: Content-Length: 410
+02-08 16:25:11.138 28445-28716/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:11.138 28445-28716/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:11.138 28445-28716/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:11.138 28445-28716/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:11.138 28445-28716/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:11.138 28445-28716/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:11.138 28445-28716/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:11.138 28445-28716/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:11.139 28445-28716/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:11.139 28445-28716/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:11.139 28445-28716/com.medicom.maven.debug D/OkHttp: {"mustConfirmSafetyInfo":false,"login":"maventests+patient+17@gmail.com","firstName":"Patient17","lastName":"Patient","registrationStatus":"CONFIRMED","id":170358,"token":"usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370","roles":["ROLE_PATIENT"],"hcpRights":[],"locale":"en_US","treatmentCentreId":null,"maxInactivityTimeInMin":20,"abrAndAdherenceTimeFrame":365,"passwordExpiryDate":"2030-01-01T00:00:00Z"}
+02-08 16:25:11.140 28445-28716/com.medicom.maven.debug D/OkHttp: <-- END HTTP (410-byte body)
+02-08 16:25:11.164 28445-28716/com.medicom.maven.debug D/LoginResultUseCase: Logged in with user User{id=170358, login=maventests+patient+17@gmail.com, roles=[ROLE_PATIENT], firstName=Patient17, lastName=Patient, token=usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370, locale=en_US, maxInactivityTimeInMin=20, mustConfirmSafetyInfo=false, registrationStatus=CONFIRMED}
+02-08 16:25:11.210 28445-28720/com.medicom.maven.debug D/TasksManager: Start new task PinInfoTask{userId=170358, aiid=WipeableByteArray{value=1879f8d83348d7e87531242d22d50a79, wiped=false}}:1901304677
+02-08 16:25:11.227 28445-28721/com.medicom.maven.debug D/OkHttp: --> POST https://test-maven.cogniance.com/api/v1/users/170358/pin-info http/1.1
+02-08 16:25:11.227 28445-28721/com.medicom.maven.debug D/OkHttp: Content-Type: application/json; charset=UTF-8
+02-08 16:25:11.227 28445-28721/com.medicom.maven.debug D/OkHttp: Content-Length: 52
+02-08 16:25:11.227 28445-28721/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:11.228 28445-28721/com.medicom.maven.debug D/OkHttp: {"accountInstallationId":"GHn42DNI1+h1MSQtItUKeQ=="}
+02-08 16:25:11.228 28445-28721/com.medicom.maven.debug D/OkHttp: --> END POST (52-byte body)
+02-08 16:25:11.253 28445-28721/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/users/170358/pin-info (25ms)
+02-08 16:25:11.253 28445-28721/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:11.253 28445-28721/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:11 GMT
+02-08 16:25:11.253 28445-28721/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:11.253 28445-28721/com.medicom.maven.debug D/OkHttp: Content-Length: 126
+02-08 16:25:11.253 28445-28721/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:11.253 28445-28721/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:11.253 28445-28721/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:11.253 28445-28721/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:11.253 28445-28721/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:11.253 28445-28721/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:11.253 28445-28721/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:11.253 28445-28721/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:11.254 28445-28721/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:11.254 28445-28721/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:11.254 28445-28721/com.medicom.maven.debug D/OkHttp: {"userSecret":"REVBREJFRUY=","kdf":"pSh5DzRNF3LuPKg6S1SzRUF2qUpzRVqXCwLiQ1KgEvjEr9MV9+r4xsYYouVO2rPEWIFfmINHt1Wvf4eFQASpxA=="}
+02-08 16:25:11.254 28445-28721/com.medicom.maven.debug D/OkHttp: <-- END HTTP (126-byte body)
+02-08 16:25:11.337 28445-28445/com.medicom.maven.debug D/InfusersSentry: Found 0 infusers
+02-08 16:25:11.338 28445-28445/com.medicom.maven.debug D/InfusersSentry: Switch to background iteration
+02-08 16:25:12.447 28445-28725/com.medicom.maven.debug D/TasksManager: Start new task LoadAllDataTask{user=UserNoToken{id=170358, login=maventests+patient+17@gmail.com, roles=[ROLE_PATIENT], firstName=Patient17, lastName=Patient, locale=en_US, maxInactivityTimeInMin=20, mustConfirmSafetyInfo=false, registrationStatus=CONFIRMED}}:903718461
+02-08 16:25:12.502 28445-28726/com.medicom.maven.debug I/greenDAO: Creating tables for schema version 1
+02-08 16:25:12.936 28445-28726/com.medicom.maven.debug D/TasksManager: Start new task LoadUserProfileTask{userId=170358, refreshCountryAnyway=true}:1849625616
+02-08 16:25:12.944 28445-28726/com.medicom.maven.debug D/TasksManager: Start new task LoadCaregiverFromPatientsSharingTask{caregiverId=170358}:908085
+02-08 16:25:12.947 28445-28726/com.medicom.maven.debug D/TasksManager: Start new task LoadPatientToTreatmentCentresSharingsTask{patientId=170358}:908085
+02-08 16:25:12.949 28445-28726/com.medicom.maven.debug D/TasksManager: Start new task LoadPatientToCaregiversSharingsTask{patientId=170358}:908085
+02-08 16:25:12.951 28445-28726/com.medicom.maven.debug D/TasksManager: Start new task LoadInjectionScheduleTask{patientId=170358}:908085
+02-08 16:25:12.954 28445-28726/com.medicom.maven.debug D/TasksManager: Start new task LoadNotificationSettingsTask{patientId=170358}:908085
+02-08 16:25:12.980 28445-28735/com.medicom.maven.debug D/PhotoRepository: Leaked photos []
+02-08 16:25:13.069 28445-28728/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/users/170358 http/1.1
+02-08 16:25:13.069 28445-28728/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:13.069 28445-28728/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:13.101 28445-28731/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/users/170358/sharing-requests/treatment-centres http/1.1
+02-08 16:25:13.101 28445-28731/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:13.101 28445-28731/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:13.142 28445-28730/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/users/170358/sharing-requests/patients?withStats=false http/1.1
+02-08 16:25:13.142 28445-28730/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:13.142 28445-28730/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:13.188 28445-28733/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/patient/170358/injection-schedules http/1.1
+02-08 16:25:13.188 28445-28733/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:13.188 28445-28733/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:13.260 28445-28732/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/users/170358/sharing-requests/caregivers http/1.1
+02-08 16:25:13.260 28445-28732/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:13.260 28445-28732/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:13.284 28445-28734/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/patient/170358/reminders http/1.1
+02-08 16:25:13.284 28445-28734/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:13.284 28445-28734/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:13.299 28445-28728/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/users/170358 (229ms)
+02-08 16:25:13.299 28445-28728/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:13.299 28445-28728/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:13 GMT
+02-08 16:25:13.299 28445-28728/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:13.299 28445-28728/com.medicom.maven.debug D/OkHttp: Content-Length: 676
+02-08 16:25:13.299 28445-28728/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:13.299 28445-28728/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:13.299 28445-28728/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:13.299 28445-28728/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:13.299 28445-28728/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:13.299 28445-28728/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:13.299 28445-28728/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:13.299 28445-28728/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:13.299 28445-28728/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:13.299 28445-28728/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:13.300 28445-28728/com.medicom.maven.debug D/OkHttp: {"email":"maventests+patient+17@gmail.com","firstName":"Patient17","lastName":"Patient","alternativeEmail":null,"phoneNumber":"+12672060413","alternativePhoneNumber":null,"gender":null,"address":"Some address","city":"Warsaw","language":"en","provinceId":null,"provinceName":null,"birthDate":null,"diagnosis":"HEMOPHILIA_A","roles":["ROLE_PATIENT"],"country":"US","countryName":"United States","newEmail":null,"newPhoneNumber":null,"treatmentCentreId":null,"hcp":null,"maxInactivityTimeInMin":30,"passwordExpiryDate":"2030-01-01T00:00:00Z","annualBleedRate":0.0,"abrAndAdherenceTimeFrame":365,"adherence":null,"active":null,"lastSyncDate":"2018-02-08T15:22:42Z","infusers":[]}
+02-08 16:25:13.300 28445-28728/com.medicom.maven.debug D/OkHttp: <-- END HTTP (676-byte body)
+02-08 16:25:13.362 28445-28742/com.medicom.maven.debug D/TasksManager: Start new task GetCountriesTask{}:1
+02-08 16:25:13.422 28445-28743/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/location/countries http/1.1
+02-08 16:25:13.422 28445-28743/com.medicom.maven.debug D/OkHttp: Not-Authenticate: No-Matter
+02-08 16:25:13.422 28445-28743/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:13.424 28445-28731/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/users/170358/sharing-requests/treatment-centres (323ms)
+02-08 16:25:13.424 28445-28731/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:13.424 28445-28731/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:13 GMT
+02-08 16:25:13.424 28445-28731/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:13.424 28445-28731/com.medicom.maven.debug D/OkHttp: Content-Length: 2
+02-08 16:25:13.424 28445-28731/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:13.424 28445-28731/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:13.424 28445-28731/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:13.424 28445-28731/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:13.424 28445-28731/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:13.425 28445-28731/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:13.425 28445-28731/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:13.425 28445-28731/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:13.425 28445-28731/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:13.425 28445-28731/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:13.426 28445-28731/com.medicom.maven.debug D/OkHttp: []
+02-08 16:25:13.426 28445-28731/com.medicom.maven.debug D/OkHttp: <-- END HTTP (2-byte body)
+02-08 16:25:13.447 28445-28734/com.medicom.maven.debug D/OkHttp: <-- 204  https://test-maven.cogniance.com/api/v1/patient/170358/reminders (163ms)
+02-08 16:25:13.448 28445-28734/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:13.448 28445-28734/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:13 GMT
+02-08 16:25:13.448 28445-28734/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:13.448 28445-28734/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:13.448 28445-28734/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:13.448 28445-28734/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:13.448 28445-28734/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:13.448 28445-28734/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:13.448 28445-28734/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:13.448 28445-28734/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:13.448 28445-28734/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:13.448 28445-28734/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:13.451 28445-28732/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/users/170358/sharing-requests/caregivers (190ms)
+02-08 16:25:13.451 28445-28732/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:13.451 28445-28732/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:13 GMT
+02-08 16:25:13.451 28445-28732/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:13.451 28445-28732/com.medicom.maven.debug D/OkHttp: Content-Length: 2
+02-08 16:25:13.451 28445-28732/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:13.451 28445-28732/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:13.451 28445-28732/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:13.451 28445-28732/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:13.451 28445-28732/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:13.451 28445-28732/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:13.451 28445-28732/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:13.451 28445-28732/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:13.451 28445-28732/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:13.451 28445-28732/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:13.451 28445-28734/com.medicom.maven.debug D/OkHttp: <-- END HTTP
+02-08 16:25:13.452 28445-28732/com.medicom.maven.debug D/OkHttp: []
+02-08 16:25:13.452 28445-28732/com.medicom.maven.debug D/OkHttp: <-- END HTTP (2-byte body)
+02-08 16:25:13.473 28445-28733/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/patient/170358/injection-schedules (284ms)
+02-08 16:25:13.473 28445-28733/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:13.473 28445-28733/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:13 GMT
+02-08 16:25:13.473 28445-28733/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:13.473 28445-28733/com.medicom.maven.debug D/OkHttp: Content-Length: 2
+02-08 16:25:13.473 28445-28733/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:13.473 28445-28733/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:13.473 28445-28733/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:13.473 28445-28733/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:13.473 28445-28733/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:13.473 28445-28733/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:13.473 28445-28733/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:13.473 28445-28733/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:13.473 28445-28733/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:13.473 28445-28733/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:13.474 28445-28733/com.medicom.maven.debug D/OkHttp: []
+02-08 16:25:13.474 28445-28733/com.medicom.maven.debug D/OkHttp: <-- END HTTP (2-byte body)
+02-08 16:25:13.474 28445-28730/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/users/170358/sharing-requests/patients?withStats=false (331ms)
+02-08 16:25:13.474 28445-28730/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:13.474 28445-28730/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:13 GMT
+02-08 16:25:13.474 28445-28730/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:13.474 28445-28730/com.medicom.maven.debug D/OkHttp: Content-Length: 2
+02-08 16:25:13.474 28445-28730/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:13.474 28445-28730/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:13.474 28445-28730/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:13.474 28445-28730/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:13.475 28445-28730/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:13.475 28445-28730/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:13.475 28445-28730/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:13.475 28445-28730/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:13.475 28445-28730/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:13.475 28445-28730/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:13.477 28445-28730/com.medicom.maven.debug D/OkHttp: []
+02-08 16:25:13.477 28445-28730/com.medicom.maven.debug D/OkHttp: <-- END HTTP (2-byte body)
+02-08 16:25:13.477 28445-28743/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/location/countries (54ms)
+02-08 16:25:13.477 28445-28743/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:13.477 28445-28743/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:13 GMT
+02-08 16:25:13.477 28445-28743/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:13.477 28445-28743/com.medicom.maven.debug D/OkHttp: Content-Length: 5928
+02-08 16:25:13.477 28445-28743/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:13.477 28445-28743/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:13.477 28445-28743/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:13.477 28445-28743/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:13.477 28445-28743/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:13.477 28445-28743/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:13.477 28445-28743/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:13.477 28445-28743/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:13.477 28445-28743/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:13.477 28445-28743/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:13.479 28445-28743/com.medicom.maven.debug D/OkHttp: [{"code":"US","name":"United States","installedLanguages":[{"code":"en","name":"English","dateTimeFormats":{"shortTime":"h:mm a","longTime":"h:mm:ss a","extraShortDate":"MMM d","shorterDate":"MMMM, yyyy","shortDate":"M/d/yyyy","longDate":"EEEE, MMMM dd, yyyy"},"numberFormats":{"decimalSeparator":".","groupingSeparator":",","groupingSize":3,"phoneNumber":"+#-###-###-####"}}],"provinces":[{"id":1,"name":"Alabama","code":"AL"},{"id":2,"name":"Alaska","code":"AK"},{"id":3,"name":"Arizona","code":"AZ"},{"id":4,"name":"Arkansas","code":"AR"},{"id":5,"name":"California","code":"CA"},{"id":6,"name":"Colorado","code":"CO"},{"id":7,"name":"Connecticut","code":"CT"},{"id":8,"name":"Delaware","code":"DE"},{"id":9,"name":"Florida","code":"FL"},{"id":10,"name":"Georgia","code":"GA"},{"id":11,"name":"Hawaii","code":"HI"},{"id":12,"name":"Idaho","code":"ID"},{"id":13,"name":"Illinois","code":"IL"},{"id":14,"name":"Indiana","code":"IN"},{"id":15,"name":"Iowa","code":"IA"},{"id":16,"name":"Kansas","code":"KS"},{"id":17,"name":"Kentucky","code":"KY"},{"id":18,"name":"Louisiana","code":"LA"},{"id":19,"name":"Maine","code":"ME"},{"id":20,"name":"Maryland","code":"MD"},{"id":21,"name":"Massachusetts","code":"MA"},{"id":22,"name":"Michigan","code":"MI"},{"id":23,"name":"Minnesota","code":"MN"},{"id":24,"name":"Mississippi","code":"MS"},{"id":25,"name":"Missouri","code":"MO"},{"id":26,"name":"Montana","code":"MT"},{"id":27,"name":"Nebraska","code":"NE"},{"id":28,"name":"Nevada","code":"NV"},{"id":29,"name":"New Hampshire","code":"NH"},{"id":30,"name":"New Jersey","code":"NJ"},{"id":31,"name":"New Mexico","code":"NM"},{"id":32,"name":"New York","code":"NY"},{"id":33,"name":"North Carolina","code":"NC"},{"id":34,"name":"North Dakota","code":"ND"},{"id":35,"name":"Ohio","code":"OH"},{"id":36,"name":"Oklahoma","code":"OK"},{"id":37,"name":"Oregon","code":"OR"},{"id":38,"name":"Pennsylvania","code":"PA"},{"id":39,"name":"Rhode Island","code":"RI"},{"id":40,"name":"South Carolina","code":"SC"},{"id":41,"name":"South Dakota","code":"SD"},{"id":42,"name":"Tennessee","code":"TN"},{"id":43,"name":"Texas","code":"TX"},{"id":44,"name":"Utah","code":"UT"},{"id":45,"name":"Vermont","code":"VT"},{"id":46,"name":"Virginia","code":"VA"},{"id":47,"name":"Washington","code":"WA"},{"id":48,"name":"West Virginia","code":"WV"},{"id":49,"name":"Wisconsin","code":"WI"},{"id":50,"name":"Wyoming","code":"WY"}],"countrySettings":{"numberOfRememberedPasswordsPerUser":5,"passwordExpires":true,"passwordValidityDays":30,"emailReminders":true,"smsReminders":true,"firstDayOfWeek":"Sunday","sharingDataWithTreatmentCentres":"ALL_CAN_INVITE","sharingDataWithCaregivers":true,"supportPhoneNumber":"+15005550008","smsGatewayPhoneNumber":"+15005550006","webSession":{"min":1,"max":10,"default":10},"mobileClientSession":{"min":0,"max":20,"default":15},"htcGraphs":true,"phone":{"prefix":"+1","minLength":12,"maxLength":12}}},{"code":"GB","name":"United Kingdom","installedLanguages":[{"code":"en","name":"English","dateTimeFormats":{"shortTime":"H:mm","longTime":"HH:mm:ss","extraShortDate":"d MMM","shorterDate":"MMMM, yyyy","shortDate":"yyyy-MM-dd","longDate":"EEEE, dd MMMM yyyy"},"numberFormats":{"decimalSeparator":".","groupingSeparator":" ","groupingSize":3,"phoneNumber":"+####################"}}],"provinces":[],"countrySettings":{"numberOfRememberedPasswordsPerUser":10,"passwordExpires":true,"passwordValidityDays":180,"emailReminders":true,"smsReminders":true,"firstDayOfWeek":"Monday","sharingDataWithTreatmentCentres":"ALL_CAN_INVITE","sharingDataWithCaregivers":true,"supportPhoneNumber":"+15005550008","smsGatewayPhoneNumber":"+15005550006","webSession":{"min":2,"max":30,"default":30},"mobileClientSession":{"min":1,"max":1,"default":1},"htcGraphs":true,"phone":{"prefix":"+44","minLength":14,"maxLength":14}}},{"code":"UA","name":"Ukraine","installedLanguages":[{"code":"uk","name":"Ukrainian","dateTimeFormats":{"shortTime":"H:mm","longTime":"HH:mm:ss","extraShortDate":"d MMM","shorterDate":"MMM
+02-08 16:25:13.479 28445-28743/com.medicom.maven.debug D/OkHttp: M, yyyy","shortDate":"yyyy-MM-dd","longDate":"EEEE, dd MMMM yyyy"},"numberFormats":{"decimalSeparator":";","groupingSeparator":"-","groupingSize":2,"phoneNumber":"+####################"}}],"provinces":[],"countrySettings":{"numberOfRememberedPasswordsPerUser":10,"passwordExpires":true,"passwordValidityDays":180,"emailReminders":true,"smsReminders":true,"firstDayOfWeek":"Monday","sharingDataWithTreatmentCentres":"ALL_CAN_INVITE","sharingDataWithCaregivers":true,"supportPhoneNumber":"+15005550008","smsGatewayPhoneNumber":"+15005550006","webSession":{"min":2,"max":30,"default":30},"mobileClientSession":{"min":0,"max":30,"default":30},"htcGraphs":true,"phone":{"prefix":"+48","minLength":12,"maxLength":13}}},{"code":"PL","name":"Poland","installedLanguages":[{"code":"en","name":"English","dateTimeFormats":{"shortTime":"H:mm","longTime":"HH:mm:ss","extraShortDate":"d MMM","shorterDate":"MMMM, yyyy","shortDate":"yyyy-MM-dd","longDate":"EEEE, dd MMMM yyyy"},"numberFormats":{"decimalSeparator":".","groupingSeparator":" ","groupingSize":3,"phoneNumber":"+####################"}},{"code":"pl","name":"Polish","dateTimeFormats":{"shortTime":"H:mm","longTime":"HH:mm:ss","extraShortDate":"d MMM","shorterDate":"MMMM, yyyy","shortDate":"yyyy-MM-dd","longDate":"EEEE, dd MMMM yyyy"},"numberFormats":{"decimalSeparator":";","groupingSeparator":"-","groupingSize":2,"phoneNumber":"+####################"}}],"provinces":[],"countrySettings":{"numberOfRememberedPasswordsPerUser":5,"passwordExpires":true,"passwordValidityDays":180,"emailReminders":true,"smsReminders":true,"firstDayOfWeek":"Sunday","sharingDataWithTreatmentCentres":"ALL_CAN_INVITE","sharingDataWithCaregivers":true,"supportPhoneNumber":"+15005550008","smsGatewayPhoneNumber":"+15005550006","webSession":{"min":2,"max":30,"default":30},"mobileClientSession":{"min":0,"max":30,"default":30},"htcGraphs":true,"phone":{"prefix":"+1","minLength":12,"maxLength":12}}}]
+02-08 16:25:13.479 28445-28743/com.medicom.maven.debug D/OkHttp: <-- END HTTP (5928-byte body)
+02-08 16:25:13.626 28445-28750/com.medicom.maven.debug D/TasksManager: Start new task LoadSafetyInfoTask{countryCode=US, languageCode=en}:968623998
+02-08 16:25:13.634 28445-28757/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/location/countries/US/safety-info http/1.1
+02-08 16:25:13.634 28445-28757/com.medicom.maven.debug D/OkHttp: Not-Authenticate: No-Matter
+02-08 16:25:13.634 28445-28757/com.medicom.maven.debug D/OkHttp: Accept-Language: en
+02-08 16:25:13.634 28445-28757/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:13.756 28445-28757/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/location/countries/US/safety-info (121ms)
+02-08 16:25:13.756 28445-28757/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:13.756 28445-28757/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:14 GMT
+02-08 16:25:13.756 28445-28757/com.medicom.maven.debug D/OkHttp: Content-Type: text/html;charset=UTF-8
+02-08 16:25:13.756 28445-28757/com.medicom.maven.debug D/OkHttp: Content-Length: 15319
+02-08 16:25:13.756 28445-28757/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:13.756 28445-28757/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:13.756 28445-28757/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:13.756 28445-28757/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:13.756 28445-28757/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:13.757 28445-28757/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:13.757 28445-28757/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:13.757 28445-28757/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:13.757 28445-28757/com.medicom.maven.debug D/OkHttp: Last-Modified: 2017-10-12T10:13:24Z
+02-08 16:25:13.757 28445-28757/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:13.757 28445-28757/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:13.761 28445-28757/com.medicom.maven.debug D/OkHttp: <body>
+02-08 16:25:13.761 28445-28757/com.medicom.maven.debug D/OkHttp: <p> biTb This End User License Agreement ("Agreement") is a legal agreement between you and CSL Behring LLC ("CSL") regarding your use of the INFUGO Mobile and Web Application ("Application").  This Agreement governs your use of this Application, including, without limitation, the use of all content such as text, information, and images and the suite of services, integrated tools, programs, software, databases, helpers, and other related items.  By clicking the "I Agree" button, you accept to be bound by all the terms and conditions of this Agreement.  If you do not accept the terms of this Agreement, you will not be able to use the Application and you must remove the Application from your system or device.  Your use of the Application is subject to the following terms and conditions of this Agreement.</p>
+02-08 16:25:13.761 28445-28757/com.medicom.maven.debug D/OkHttp: <p>1.	GRANT OF LICENSE.  Subject to the terms of this Agreement, CSL hereby grants to you a limited, non-exclusive, non-transferable license to install, access, and use the Application solely for your personal use.  You may not rent, lease, sell, sublicense, assign, reverse engineer, disassemble, modify, loan, distribute, export or otherwise transfer, or allow others to use the Application, technology, or other information, including any printed materials of the same, nor may you create derivative works of or otherwise modify the same.  This license will automatically terminate if you do not comply with the terms of this Agreement.  You may not use, download, or export the Application in violation of any applicable laws or regulations.</p>
+02-08 16:25:13.761 28445-28757/com.medicom.maven.debug D/OkHttp: <p>2.	DISCLAIMER AND NOTICE.  The information contained on this Application, including, but not limited to, clinical references, images, tools, and other related items are intended to be used as a reference resource and not as a complete, solitary resource.  While care has been taken to confirm the accuracy of the information presented and to describe generally accepted practices, CSL and its respective licensors, authors, editors, reviewers, contributors, and publishers are not responsible for errors or omissions or for any consequences from application of the information herein and make no warranty, expressed or implied, with respect to the currency, completeness, or accuracy of the contents of the Application.
+02-08 16:25:13.761 28445-28757/com.medicom.maven.debug D/OkHttp: <ul>
+02-08 16:25:13.761 28445-28757/com.medicom.maven.debug D/OkHttp: <li>None of the information provide through the Application is intended to be medical advice.
+02-08 16:25:13.761 28445-28757/com.medicom.maven.debug D/OkHttp: <li>The application is not intended to be relied upon as a primary method for scheduling when to take medication or what medication to take. Users are responsible for ensuring that they take the correct medication at the correct time and dosage.</li>
+02-08 16:25:13.761 28445-28757/com.medicom.maven.debug D/OkHttp: <li>The reminder functionality is configured by the users. Users must ensure that the information entered into the application is correct and complete to ensure the accuracy of the reminders and notifications.</li>
+02-08 16:25:13.761 28445-28757/com.medicom.maven.debug D/OkHttp: <li>The reminder functionality rely on external components to function: connection to mobile network for SMS; connection to data network for emails; users' default phone calendar for exported reminders; and the mobile device for in-app notifications.</li>
+02-08 16:25:13.761 28445-28757/com.medicom.maven.debug D/OkHttp: <li>The Adherence Rate calculations are simply snapshots of users' self-reporting of adherence to their self-directed dosing schedules. Because the prescribed dosing schedule may require strict adherence, any adherence percentage, even a very high one, may not be relied upon as an indicator that users are taking their medications when and as prescribed. The Adherence Rate does not verify the medication or dosage. Only a doctor can confirm if the user is taking and adhering to their medication as prescribed.</li>
+02-08 16:25:13.761 28445-28757/com.medicom.maven.debug D/OkHttp: <li>The Annualized Bleed rate and Time of Last Bleed are calculated solely based on users' own input and may not be relied upon as an indicator for the users' health.</li>
+02-08 16:25:13.761 28445-28757/com.medicom.maven.debug D/OkHttp: <li>Users who invite caregivers to follow their treatment and act on their behalf, does so at their own risk.
+02-08 16:25:13.761 28445-28757/com.medicom.maven.debug D/OkHttp: </ul>
+02-08 16:25:13.761 28445-28757/com.medicom.maven.debug D/OkHttp: Because health related information changes frequently, the information contained in the Application may be outdated, incorrect, or incomplete.  Applying this information in a particular situation remains the licensee's responsibility.</p>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <p>3.	MEDICAL INFORMATION/CONDITIONS.  There may be information on this Application related to certain medical conditions and/or their treatment.  This information must not be used as a substitute for medical judgment, advice, diagnosis, or treatment of any medical condition or problem.  If you have a question about any medical condition or problem, you should consult with a physician or other qualified healthcare provider.  CSL does not offer personalized medical diagnosis or patient-specific treatment advice.  A doctor or other healthcare professional is in the best position to assess and provide information about any medical condition and any treatment options.   </p>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <p>4.	NO PHYSICIAN-PATIENT RELATIONSHIP.  The use of this Application does not create a physician-patient relationship with you.  By using this Application, you agree that CSL is not, nor will be, liable or otherwise responsible for any decision made or any action taken or not taken by you due to your use of any information presented through the Application.
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: </p>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <p>5.	FOR USE BY U.S. RESIDENTS ONLY.  The Application and any information relating to CSL products are intended for use only by United States residents.  The information in this Application is intended to comply with the laws and regulations of the United States, and other countries may have laws, regulatory requirements, medical practices, and other restrictions that differ from those in the U.S.  Any portion of this Application is void where prohibited.</p>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <p>6.  	CONSENT TO USE OF DATA.  You agree that CSL or others working for CSL may collect and use technical data and related information, including but not limited to technical information about your device, system and application software, and peripherals, that are gathered periodically to facilitate the provision of software updates, support, and other services to you (if any) related to the Application.  CSL or others working for CSL may use this information to improve and/or to provide to you its products, processes, services, or technologies.  CSL or others working for CSL will not collect and will not use information that identifies you personally.  </p>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <p>7.	SURVIVAL.  The provisions of Sections 7, 8, 9, 10, 11, 14, 16 (and its subparts), and 17 shall survive any termination or expiration of this Agreement.</p>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <p>8.	UPDATES AND SUPPORT.  CSL may choose to provide updates to the Application at any time at its sole discretion.  CSL shall not have any obligation to provide you with any maintenance or support relating to the Application.</p>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <p>9.	DISCLAIMER OF WARRANTIES.  YOU UNDERSTAND AND AGREE THAT THE APPLICATION IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS.  CSL DOES NOT MAKE ANY WARRANTY THAT THE APPLICATION WILL MEET YOUR REQUIREMENTS OR THAT USE OF THE APPLICATION WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE.  CSL DOES NOT MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM USE OF THE APPLICATION OR THE ACCURACY OR RELIABILITY OF ANY INFORMATION OBTAINED THROUGH THE APPLICATION (INCLUDING THIRD-PARTY CONTENT) OR THAT ANY DEFECTS IN THE APPLICATION WILL BE CORRECTED.  CSL AND ITS SUPPLIERS DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED OR STATUTORY REGARDING THE APPLICATION, INCLUDING ANY IMPLIED WARRANTY OF TITLE, MERCHANTIBILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD-PARTY RIGHTS.  YOU UNDERSTAND AND AGREE THAT ANY MATERIAL OR DATA OBTAINED THROUGH USE OF THE APPLICATION IS AT YOUR OWN DISCRETION AND RISK AND THAT YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR DEVICE OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF ANY SUCH CONTENT OR MATERIAL.  </p>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <p>10.	LIMITATION OF LIABILITY.  TO THE EXTENT PERMITTED BY LAW, YOU UNDERSTAND AND AGREE THAT CSL AND ITS RESPECTIVE LICENSORS SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, AND EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE, INCLUDING, WITHOUT LIMITATION, DAMAGES FOR PERSONAL INJURY, LOST DATA, LOST PROFITS, OR BUSINESS INTERRUPTION ARISING FROM OR RELATING TO:  (i) YOUR USE OF THE APPLICATION OR USE OF THE APPLICATION THROUGH YOUR ACCOUNT BY ANYONE ELSE; (ii) THE COST OF PROCUREMENT OF SUBSTITUTE DATA, INFORMATION OR SOFTWARE; (iii) UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA; OR (iv) ANY OTHER MATTER RELATING TO THE APPLICATION OR ITS USE.  ADDITIONALLY, YOU ARE SOLELY RESPONSIBLE FOR ANY AND ALL DECISIONS REGARDING USE OF THE APPLICATION TO INPUT, STORE, AND/OR TRANSFER PERSONAL DATA.  </p>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <p>11.	INDEMNIFICATION.  You agree to indemnify, defend, and hold harmless CSL, its respective officers, directors, employees, agents, and suppliers from any claim or demand, including reasonable attorneys' fees, made by any third party due to, or allegedly arising out of, your use of the Application or any breach of this Agreement or violation of any rights of another.  </p>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <p>12.	TERMINATION.  The license is effective until terminated by you or by CSL, which may be done at any time.  Upon termination you shall cease to use and shall permanently remove or uninstall all copies of the Application in its entirety.  Your rights under this license will terminate automatically without notice from CSL should you fail to comply with any term(s) of this license.  All other provisions of this Agreement will survive such termination.</p>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <p>13.	PROPRIETARY RIGHTS.  You acknowledge that (a) the Application contains proprietary and confidential information that is protected by applicable intellectual property and other laws, and (b) CSL owns all right, title, and interest in and to the Application and software provided through or in conjunction with the Application, including without limitation all Intellectual Property Rights therein and thereto.  "Intellectual Property Rights" means any and all rights existing from time to time under patent law, copyright law, trade secret law, trademark law, unfair competition law, and any and all other proprietary rights, and any and all applications, renewals, extensions, and restorations thereof, now or hereafter in force and effect worldwide.  You agree that you will not, and will not allow any third party to, (i) copy, sell, license, distribute, transfer, modify, adapt, translate, prepare derivative works from, decompile, reverse engineer, disassemble or otherwise attempt to derive source code from the Application, unless otherwise permitted, (ii) take any action to circumvent or defeat the security or content usage rules provided, deployed or enforced by any functionality (including without limitation digital rights management functionality) contained in the Application, (iii) use the Application to access, copy, transfer, transcode, or retransmit content in violation of any law or third-party rights, or (iv) remove obscure or alter CSL's or any third party's copyright notices, trademarks, or other proprietary rights notices affixed to or contained within or accessed in conjunction with or through the Application.</p>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <p>14.	ASSIGNMENT.  You may not assign or transfer your rights under this Agreement without the prior written consent of CSL.  CSL may assign all rights and liabilities under this Agreement to a subsidiary, affiliate, or successor to all or a substantial part of its business and assets without your consent.  Subject to the foregoing, this Agreement will inure to the benefit of and be binding upon the successors and permitted assigns of the parties.  </p>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <p>15.	FORCE MAJEURE.  No party shall be liable for a failure or delay in performing any of its obligations under this Agreement if, but only to the extent that such failure or delay is due to causes beyond the reasonable control of the affected party, including (i) acts of God; (ii) fire, explosion, or unusually severe weather; (iii) war, invasion, riot or other civil unrest; (iv) governmental laws, orders, restrictions, actions, embargoes or blockages; (v) national or regional emergency; and provided that the party affected shall promptly notify the other of the force majeure condition and shall exert reasonable efforts to eliminate, cure or overcome any such causes and to resume performance of its obligations as soon as possible.  </p>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <p>16.	MISCELLANEOUS
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <ul><li>16.1	You agree to access and use the Application in accordance with all applicable laws and regulations, including, without limitation, state and federal laws and regulations.  You agree not to use the Application for any illegal or wrongful purpose. </li>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <li>16.2	This Agreement and the rights and obligations of the parties hereunder shall be governed by and interpreted, construed, and enforced in accordance with the laws of the Commonwealth of Pennsylvania, exclusive of its choice of law rules.  The state and federal courts in Pennsylvania have exclusive jurisdiction to adjudicate any disputes between the parties, and each party hereby consents to the interpretation of laws, jurisdiction, and venue in the state and federal courts sitting in Pennsylvania. If any provision of this Agreement is held by a court of competent jurisdiction to be invalid, such provision shall be reformed to as nearly as possible approximate the intent of the parties and all other provisions shall remain in full force and effect.</li>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <li>16.3	CSL's failure to exercise or enforce any right or provision of this Agreement shall not constitute a waiver of such right or provision.</li>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <li>16.4	Section headings in this Agreement are used solely for the convenience of the parties and have no legal or contractual significance.</li>
+02-08 16:25:13.762 28445-28757/com.medicom.maven.debug D/OkHttp: <li>16.5	This Agreement constitutes the parties' final, exclusive and complete understanding and agreement with respect to the subject matter hereof and supersedes all prior and contemporaneous understandings and agreements, oral or written, between the parties.</li></ul></p>
+02-08 16:25:13.763 28445-28757/com.medicom.maven.debug D/OkHttp: <p>17.	EXCLUSIONS AND LIMITATIONS.  NOTHING IN THIS AGREEMENT IS INTENDED TO EXCLUDE OR LIMIT ANY CONDITION, WARRANTY, RIGHT OR LIABILITY WHICH MAY NOT BE LAWFULLY EXCLUDED OR LIMITED.  SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR CONDITIONS OR THE LIMITATION OR EXCLUSION OF LIABILITY FOR LOSS OR DAMAGE CAUSED BY NEGLIGENCE, BREACH OF CONTRACT OR BREACH OF IMPLIED TERMS, OR INCIDENTAL OR CONSEQUENTIAL DAMAGES.  ACCORDINGLY, ONLY THE ABOVE LIMITATIONS IN SECTIONS 9 AND 10 WHICH ARE LAWFUL IN YOUR JURISDICTION WILL APPLY TO YOU AND CSL'S LIABILITY WILL BE LIMITED TO THE MAXIMUM EXTENT PERMITTED BY LAW.</p>
+02-08 16:25:13.763 28445-28757/com.medicom.maven.debug D/OkHttp: <p>18.	CUSTOMER AGREEMENT.  You hereby represent and warrant that you are legally bound by this Agreement when you download, install, and or use the Application.</p>
+02-08 16:25:13.763 28445-28757/com.medicom.maven.debug D/OkHttp: <h2>PRIVACY INFORMATION</h2>
+02-08 16:25:13.763 28445-28757/com.medicom.maven.debug D/OkHttp: <p>CSL does not collect personal information about you when you use this application.  If you have any question regarding the use of your non-personal information resulting from your use of the Application, please contact us at cslwebapps@cslbehring.com.</p>
+02-08 16:25:13.763 28445-28757/com.medicom.maven.debug D/OkHttp: <p align="center">
+02-08 16:25:13.763 28445-28757/com.medicom.maven.debug D/OkHttp:             Last updated: October 2013</p>
+02-08 16:25:13.763 28445-28757/com.medicom.maven.debug D/OkHttp: </body>
+02-08 16:25:13.763 28445-28757/com.medicom.maven.debug D/OkHttp: <-- END HTTP (15319-byte body)
+02-08 16:25:13.831 28445-28569/com.medicom.maven.debug D/TasksManager: Start new task LoadInjectionScheduleTask{patientId=170358}:908085
+02-08 16:25:13.834 28445-28770/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/patient/170358/injection-schedules http/1.1
+02-08 16:25:13.834 28445-28770/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:13.834 28445-28770/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:13.859 28445-28773/com.medicom.maven.debug D/TasksManager: Start new task SynchronizeInfusionsTask{patientId=170358, serialNumber2LastSyncDateMap={}, serialNumber2LastSyncEntryIndexMap={}}:-1613115299
+02-08 16:25:13.876 28445-28776/com.medicom.maven.debug D/TasksManager: Start new task SendSyncInfusionsTask{patientId=170358, syncInfusions=SyncInfusions{mobileAppLastSynchronization=2017-02-08T16:25:13.871, infusions=[]}}:-805468983
+02-08 16:25:13.877 28445-28770/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/patient/170358/injection-schedules (41ms)
+02-08 16:25:13.877 28445-28770/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:13.877 28445-28770/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:14 GMT
+02-08 16:25:13.877 28445-28770/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:13.877 28445-28770/com.medicom.maven.debug D/OkHttp: Content-Length: 2
+02-08 16:25:13.877 28445-28770/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:13.877 28445-28770/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:13.877 28445-28770/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:13.877 28445-28770/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:13.877 28445-28770/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:13.877 28445-28770/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:13.877 28445-28770/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:13.877 28445-28770/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:13.877 28445-28770/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:13.877 28445-28770/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:13.878 28445-28770/com.medicom.maven.debug D/OkHttp: []
+02-08 16:25:13.878 28445-28770/com.medicom.maven.debug D/OkHttp: <-- END HTTP (2-byte body)
+02-08 16:25:14.082 28445-28777/com.medicom.maven.debug D/OkHttp: --> POST https://test-maven.cogniance.com/api/v1/patients/170358/infusions/sync http/1.1
+02-08 16:25:14.082 28445-28777/com.medicom.maven.debug D/OkHttp: Content-Type: application/json; charset=UTF-8
+02-08 16:25:14.082 28445-28777/com.medicom.maven.debug D/OkHttp: Content-Length: 70
+02-08 16:25:14.082 28445-28777/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:14.083 28445-28777/com.medicom.maven.debug D/OkHttp: {"mobileAppLastSynchronization":"2017-02-08T16:25:13Z","infusions":[]}
+02-08 16:25:14.083 28445-28777/com.medicom.maven.debug D/OkHttp: --> END POST (70-byte body)
+02-08 16:25:14.183 28445-28777/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/patients/170358/infusions/sync (100ms)
+02-08 16:25:14.183 28445-28777/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:14.183 28445-28777/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:14 GMT
+02-08 16:25:14.183 28445-28777/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:14.184 28445-28777/com.medicom.maven.debug D/OkHttp: Content-Length: 1464
+02-08 16:25:14.184 28445-28777/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:14.184 28445-28777/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:14.184 28445-28777/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:14.184 28445-28777/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:14.184 28445-28777/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:14.184 28445-28777/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:14.184 28445-28777/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:14.184 28445-28777/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:14.184 28445-28777/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:14.184 28445-28777/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:14.185 28445-28777/com.medicom.maven.debug D/OkHttp: {"mobileAppLastSynchronization":"2018-02-08T15:25:13Z","infusions":[{"infusionLastModifiedTime":null,"eventTimeZone":"Europe/Warsaw","deleted":false,"id":501049,"infusionType":"PROPHYLAXIS","dataOrigin":"HUMAN","infusionTime":"2018-02-08T15:19:00Z","synchronisedAt":null,"infusionSites":[],"otherInfusionSite":null,"infusionMode":null,"maxSpeed":null,"infusedDoseVolume":null,"totalInfusionTime":null,"syringeSizeSetting":null,"infuserSerialNumber":null,"vials":[{"expirationDate":"2015-09-29","potency":998,"lot":"12345678XY","gtin":"04047725122521","productName":"Idelvion"},{"expirationDate":"2015-09-29","potency":998,"lot":"12345678XY","gtin":"10369911765840","productName":"Idelvion"},{"expirationDate":"2015-09-29","potency":998,"lot":"12345678XY","gtin":"04047725111839","productName":"Unknown"},{"expirationDate":"2015-09-29","potency":998,"lot":"12345678XY","gtin":"00000011551861","productName":"Afstyla"},{"expirationDate":"2015-09-29","potency":998,"lot":"12345678XY","gtin":"08470007122678","productName":"Afstyla"},{"expirationDate":"2015-09-29","potency":998,"lot":"12345678XY","gtin":"00000000000001","productName":"Afstyla"},{"expirationDate":"2015-09-29","potency":998,"lot":"12345678XY","gtin":"04047725122453","productName":"Idelvion"},{"expirationDate":"2015-09-29","potency":998,"lot":"12345678XY","gtin":"00000000000000","productName":"Unknown"}],"externalId":"35f76b1e-fb44-4271-96f5-e006e265d210","photos":{"available":[],"deleted":[]}}]}
+02-08 16:25:14.185 28445-28777/com.medicom.maven.debug D/OkHttp: <-- END HTTP (1464-byte body)
+02-08 16:25:14.242 28445-28452/com.medicom.maven.debug I/zygote64: Do full code cache collection, code=504KB, data=353KB
+02-08 16:25:14.243 28445-28452/com.medicom.maven.debug I/zygote64: After code cache collection, code=500KB, data=294KB
+02-08 16:25:14.308 28445-28794/com.medicom.maven.debug D/TasksManager: Start new task SendInfuserSynchronizationTask{patientId=170358, serialNumber2LastSyncTimeMap={}, serialNumber2LastSyncEntryIndexMap={}}:-1613115299
+02-08 16:25:14.313 28445-28797/com.medicom.maven.debug D/TasksManager: Start new task LoadMissedInfusionsTask{patientId=170358, range=[2017-02-08..2018-02-08]}:2017925889
+02-08 16:25:14.328 28445-28799/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/patients/170358/infusions/missed?startDate=2017-02-08&endDate=2018-02-08 http/1.1
+02-08 16:25:14.328 28445-28799/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:14.328 28445-28799/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:14.350 28445-28799/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/patients/170358/infusions/missed?startDate=2017-02-08&endDate=2018-02-08 (21ms)
+02-08 16:25:14.351 28445-28799/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:14.351 28445-28799/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:14 GMT
+02-08 16:25:14.351 28445-28799/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:14.351 28445-28799/com.medicom.maven.debug D/OkHttp: Content-Length: 2
+02-08 16:25:14.351 28445-28799/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:14.351 28445-28799/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:14.351 28445-28799/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:14.351 28445-28799/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:14.351 28445-28799/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:14.351 28445-28799/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:14.351 28445-28799/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:14.351 28445-28799/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:14.351 28445-28799/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:14.351 28445-28799/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:14.352 28445-28799/com.medicom.maven.debug D/OkHttp: []
+02-08 16:25:14.352 28445-28799/com.medicom.maven.debug D/OkHttp: <-- END HTTP (2-byte body)
+02-08 16:25:14.358 28445-28800/com.medicom.maven.debug D/TasksManager: Start new task LoadUserProfileTask{userId=170358, refreshCountryAnyway=false}:1849625610
+02-08 16:25:14.360 28445-28802/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/users/170358 http/1.1
+02-08 16:25:14.360 28445-28802/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:14.360 28445-28802/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:14.696 28445-28802/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/users/170358 (335ms)
+02-08 16:25:14.697 28445-28802/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:14.697 28445-28802/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:14 GMT
+02-08 16:25:14.697 28445-28802/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:14.697 28445-28802/com.medicom.maven.debug D/OkHttp: Content-Length: 676
+02-08 16:25:14.697 28445-28802/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:14.697 28445-28802/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:14.697 28445-28802/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:14.697 28445-28802/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:14.697 28445-28802/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:14.697 28445-28802/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:14.697 28445-28802/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:14.697 28445-28802/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:14.697 28445-28802/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:14.697 28445-28802/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:14.699 28445-28802/com.medicom.maven.debug D/OkHttp: {"email":"maventests+patient+17@gmail.com","firstName":"Patient17","lastName":"Patient","alternativeEmail":null,"phoneNumber":"+12672060413","alternativePhoneNumber":null,"gender":null,"address":"Some address","city":"Warsaw","language":"en","provinceId":null,"provinceName":null,"birthDate":null,"diagnosis":"HEMOPHILIA_A","roles":["ROLE_PATIENT"],"country":"US","countryName":"United States","newEmail":null,"newPhoneNumber":null,"treatmentCentreId":null,"hcp":null,"maxInactivityTimeInMin":30,"passwordExpiryDate":"2030-01-01T00:00:00Z","annualBleedRate":0.0,"abrAndAdherenceTimeFrame":365,"adherence":null,"active":null,"lastSyncDate":"2018-02-08T15:25:13Z","infusers":[]}
+02-08 16:25:14.699 28445-28802/com.medicom.maven.debug D/OkHttp: <-- END HTTP (676-byte body)
+02-08 16:25:14.762 28445-28808/com.medicom.maven.debug D/TasksManager: Start new task SynchronizePhotosChangesWithServerTask{patientId=170358}:908085
+02-08 16:25:15.669 28445-28452/com.medicom.maven.debug I/zygote64: Do partial code cache collection, code=503KB, data=313KB
+02-08 16:25:15.670 28445-28452/com.medicom.maven.debug I/zygote64: After code cache collection, code=503KB, data=313KB
+02-08 16:25:15.670 28445-28452/com.medicom.maven.debug I/zygote64: Increasing code cache capacity to 2MB
+02-08 16:25:15.813 28445-28475/com.medicom.maven.debug D/OpenGLRenderer: endAllActiveAnimators on 0x75ee04b000 (RippleDrawable) with handle 0x75f345ea60
+02-08 16:25:17.193 28445-28831/com.medicom.maven.debug D/BaseAuthActivity: passwordExpiration_1 final
+02-08 16:25:17.294 28445-28445/com.medicom.maven.debug D/TasksManager: Start new task LoadUserProfileTask{userId=170358, refreshCountryAnyway=false}:1849625610
+02-08 16:25:17.296 28445-28837/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/users/170358 http/1.1
+02-08 16:25:17.296 28445-28837/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:17.296 28445-28837/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:17.297 28445-28445/com.medicom.maven.debug D/TasksManager: Start new task LoadInjectionScheduleTask{patientId=170358}:908085
+02-08 16:25:17.300 28445-28839/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/patient/170358/injection-schedules http/1.1
+02-08 16:25:17.301 28445-28839/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:17.301 28445-28839/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:17.310 28445-28842/com.medicom.maven.debug D/TasksManager: Start new task SynchronizeInfusionsTask{patientId=170358, serialNumber2LastSyncDateMap={}, serialNumber2LastSyncEntryIndexMap={}}:-1613115299
+02-08 16:25:17.320 28445-28844/com.medicom.maven.debug D/TasksManager: Start new task SendSyncInfusionsTask{patientId=170358, syncInfusions=SyncInfusions{mobileAppLastSynchronization=2018-02-08T15:25:13.000, infusions=[]}}:278678475
+02-08 16:25:17.323 28445-28839/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/patient/170358/injection-schedules (22ms)
+02-08 16:25:17.323 28445-28839/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:17.323 28445-28839/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:17 GMT
+02-08 16:25:17.323 28445-28845/com.medicom.maven.debug D/OkHttp: --> POST https://test-maven.cogniance.com/api/v1/patients/170358/infusions/sync http/1.1
+02-08 16:25:17.323 28445-28839/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:17.323 28445-28839/com.medicom.maven.debug D/OkHttp: Content-Length: 2
+02-08 16:25:17.323 28445-28845/com.medicom.maven.debug D/OkHttp: Content-Type: application/json; charset=UTF-8
+02-08 16:25:17.323 28445-28839/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:17.323 28445-28845/com.medicom.maven.debug D/OkHttp: Content-Length: 70
+02-08 16:25:17.323 28445-28839/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:17.323 28445-28845/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:17.323 28445-28839/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:17.323 28445-28839/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:17.324 28445-28839/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:17.324 28445-28839/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:17.324 28445-28839/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:17.324 28445-28839/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:17.324 28445-28839/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:17.324 28445-28839/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:17.324 28445-28845/com.medicom.maven.debug D/OkHttp: {"mobileAppLastSynchronization":"2018-02-08T15:25:13Z","infusions":[]}
+02-08 16:25:17.324 28445-28845/com.medicom.maven.debug D/OkHttp: --> END POST (70-byte body)
+02-08 16:25:17.325 28445-28839/com.medicom.maven.debug D/OkHttp: []
+02-08 16:25:17.325 28445-28839/com.medicom.maven.debug D/OkHttp: <-- END HTTP (2-byte body)
+02-08 16:25:17.354 28445-28837/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/users/170358 (57ms)
+02-08 16:25:17.354 28445-28837/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:17.354 28445-28837/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:17 GMT
+02-08 16:25:17.354 28445-28837/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:17.354 28445-28837/com.medicom.maven.debug D/OkHttp: Content-Length: 676
+02-08 16:25:17.354 28445-28837/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:17.354 28445-28837/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:17.354 28445-28837/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:17.354 28445-28837/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:17.354 28445-28837/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:17.354 28445-28837/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:17.354 28445-28837/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:17.354 28445-28837/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:17.355 28445-28837/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:17.355 28445-28837/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:17.355 28445-28837/com.medicom.maven.debug D/OkHttp: {"email":"maventests+patient+17@gmail.com","firstName":"Patient17","lastName":"Patient","alternativeEmail":null,"phoneNumber":"+12672060413","alternativePhoneNumber":null,"gender":null,"address":"Some address","city":"Warsaw","language":"en","provinceId":null,"provinceName":null,"birthDate":null,"diagnosis":"HEMOPHILIA_A","roles":["ROLE_PATIENT"],"country":"US","countryName":"United States","newEmail":null,"newPhoneNumber":null,"treatmentCentreId":null,"hcp":null,"maxInactivityTimeInMin":30,"passwordExpiryDate":"2030-01-01T00:00:00Z","annualBleedRate":0.0,"abrAndAdherenceTimeFrame":365,"adherence":null,"active":null,"lastSyncDate":"2018-02-08T15:25:13Z","infusers":[]}
+02-08 16:25:17.355 28445-28837/com.medicom.maven.debug D/OkHttp: <-- END HTTP (676-byte body)
+02-08 16:25:17.404 28445-28856/com.medicom.maven.debug D/TasksManager: Start new task LoadInjectionScheduleTask{patientId=170358}:908085
+02-08 16:25:17.407 28445-28845/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/patients/170358/infusions/sync (82ms)
+02-08 16:25:17.407 28445-28845/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:17.407 28445-28845/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:17 GMT
+02-08 16:25:17.407 28445-28845/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:17.407 28445-28845/com.medicom.maven.debug D/OkHttp: Content-Length: 70
+02-08 16:25:17.407 28445-28845/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:17.407 28445-28845/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:17.407 28445-28845/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:17.407 28445-28845/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:17.407 28445-28845/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:17.407 28445-28845/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:17.407 28445-28845/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:17.407 28445-28845/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:17.407 28445-28845/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:17.407 28445-28845/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:17.409 28445-28845/com.medicom.maven.debug D/OkHttp: {"mobileAppLastSynchronization":"2018-02-08T15:25:16Z","infusions":[]}
+02-08 16:25:17.409 28445-28845/com.medicom.maven.debug D/OkHttp: <-- END HTTP (70-byte body)
+02-08 16:25:17.412 28445-28857/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/patient/170358/injection-schedules http/1.1
+02-08 16:25:17.412 28445-28857/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:17.412 28445-28857/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:17.413 28445-28445/com.medicom.maven.debug D/TasksManager: Task already started LoadUserProfileTask{userId=170358, refreshCountryAnyway=false}:1849625610
+02-08 16:25:17.418 28445-28445/com.medicom.maven.debug D/TasksManager: Start new task LoadPhoneBookTask{userId=170358}:908085
+02-08 16:25:17.434 28445-28867/com.medicom.maven.debug D/TasksManager: Task already started SynchronizeInfusionsTask{patientId=170358, serialNumber2LastSyncDateMap={}, serialNumber2LastSyncEntryIndexMap={}}:-1613115299
+02-08 16:25:17.469 28445-28857/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/patient/170358/injection-schedules (56ms)
+02-08 16:25:17.469 28445-28857/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:17.469 28445-28857/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:17 GMT
+02-08 16:25:17.469 28445-28857/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:17.469 28445-28857/com.medicom.maven.debug D/OkHttp: Content-Length: 2
+02-08 16:25:17.469 28445-28857/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:17.469 28445-28857/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:17.469 28445-28857/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:17.469 28445-28857/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:17.469 28445-28857/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:17.469 28445-28857/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:17.469 28445-28857/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:17.469 28445-28857/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:17.470 28445-28857/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:17.470 28445-28857/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:17.473 28445-28857/com.medicom.maven.debug D/OkHttp: []
+02-08 16:25:17.473 28445-28857/com.medicom.maven.debug D/OkHttp: <-- END HTTP (2-byte body)
+02-08 16:25:17.474 28445-28868/com.medicom.maven.debug D/TasksManager: Start new task SendInfuserSynchronizationTask{patientId=170358, serialNumber2LastSyncTimeMap={}, serialNumber2LastSyncEntryIndexMap={}}:-1613115299
+02-08 16:25:17.488 28445-28871/com.medicom.maven.debug D/TasksManager: Start new task LoadMissedInfusionsTask{patientId=170358, range=[2017-02-08..2018-02-08]}:2017925889
+02-08 16:25:17.497 28445-28875/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/patients/170358/infusions/missed?startDate=2017-02-08&endDate=2018-02-08 http/1.1
+02-08 16:25:17.498 28445-28875/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:17.498 28445-28875/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:17.521 28445-28863/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/users/170358/phone-book http/1.1
+02-08 16:25:17.521 28445-28863/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:17.521 28445-28863/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:17.541 28445-28863/com.medicom.maven.debug D/OkHttp: <-- 204  https://test-maven.cogniance.com/api/v1/users/170358/phone-book (19ms)
+02-08 16:25:17.541 28445-28863/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:17.542 28445-28863/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:17 GMT
+02-08 16:25:17.542 28445-28863/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:17.542 28445-28863/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:17.542 28445-28863/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:17.542 28445-28863/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:17.542 28445-28863/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:17.542 28445-28863/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:17.542 28445-28863/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:17.542 28445-28863/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:17.542 28445-28863/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:17.542 28445-28863/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:17.542 28445-28863/com.medicom.maven.debug D/OkHttp: <-- END HTTP
+02-08 16:25:17.555 28445-28445/com.medicom.maven.debug D/TasksManager: Task already started LoadMissedInfusionsTask{patientId=170358, range=[2017-02-08..2018-02-08]}:2017925889
+02-08 16:25:17.884 28445-28879/com.medicom.maven.debug D/BaseAuthActivity: notifications_2 final
+02-08 16:25:17.999 28445-28880/com.medicom.maven.debug D/SharingRequestToCaregiv: sharingRequestWithCaregiverFromPatients []
+02-08 16:25:18.001 28445-28880/com.medicom.maven.debug D/BaseAuthActivity: caregiverRequests_3 final
+02-08 16:25:18.104 28445-28445/com.medicom.maven.debug D/TasksManager: Start new task LoadCaregiverFromPatientsSharingTask{caregiverId=170358}:908085
+02-08 16:25:18.109 28445-28445/com.medicom.maven.debug D/SharingRequestWithTreat: random lastAction
+02-08 16:25:18.111 28445-28881/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/users/170358/sharing-requests/patients?withStats=false http/1.1
+02-08 16:25:18.111 28445-28881/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:18.111 28445-28881/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:18.325 28445-28875/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/patients/170358/infusions/missed?startDate=2017-02-08&endDate=2018-02-08 (826ms)
+02-08 16:25:18.325 28445-28875/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:18.325 28445-28875/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:18 GMT
+02-08 16:25:18.325 28445-28875/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:18.325 28445-28875/com.medicom.maven.debug D/OkHttp: Content-Length: 2
+02-08 16:25:18.325 28445-28875/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:18.325 28445-28875/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:18.325 28445-28875/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:18.325 28445-28875/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:18.325 28445-28875/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:18.325 28445-28875/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:18.326 28445-28875/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:18.326 28445-28875/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:18.326 28445-28875/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:18.326 28445-28875/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:18.327 28445-28875/com.medicom.maven.debug D/OkHttp: []
+02-08 16:25:18.327 28445-28875/com.medicom.maven.debug D/OkHttp: <-- END HTTP (2-byte body)
+02-08 16:25:18.334 28445-28881/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/users/170358/sharing-requests/patients?withStats=false (222ms)
+02-08 16:25:18.334 28445-28881/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:18.334 28445-28881/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:18 GMT
+02-08 16:25:18.334 28445-28881/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:18.334 28445-28881/com.medicom.maven.debug D/OkHttp: Content-Length: 2
+02-08 16:25:18.334 28445-28881/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:18.334 28445-28881/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:18.334 28445-28881/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:18.334 28445-28881/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:18.334 28445-28881/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:18.334 28445-28881/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:18.334 28445-28881/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:18.335 28445-28881/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:18.335 28445-28881/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:18.336 28445-28881/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:18.339 28445-28881/com.medicom.maven.debug D/OkHttp: []
+02-08 16:25:18.339 28445-28881/com.medicom.maven.debug D/OkHttp: <-- END HTTP (2-byte body)
+02-08 16:25:18.345 28445-28882/com.medicom.maven.debug D/TasksManager: Start new task LoadUserProfileTask{userId=170358, refreshCountryAnyway=false}:1849625610
+02-08 16:25:18.349 28445-28885/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/users/170358 http/1.1
+02-08 16:25:18.350 28445-28885/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:18.350 28445-28885/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:18.388 28445-28744/com.medicom.maven.debug D/SharingRequestWithTreat: sharingRequestWithTreatmentCentres []
+02-08 16:25:18.391 28445-28744/com.medicom.maven.debug D/BaseAuthActivity: shareToTcRequests_4 final
+02-08 16:25:18.427 28445-28885/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/users/170358 (76ms)
+02-08 16:25:18.427 28445-28885/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:18.427 28445-28885/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:18 GMT
+02-08 16:25:18.427 28445-28885/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:18.427 28445-28885/com.medicom.maven.debug D/OkHttp: Content-Length: 676
+02-08 16:25:18.427 28445-28885/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:18.427 28445-28885/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:18.427 28445-28885/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:18.427 28445-28885/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:18.427 28445-28885/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:18.427 28445-28885/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:18.427 28445-28885/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:18.427 28445-28885/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:18.427 28445-28885/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:18.427 28445-28885/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:18.429 28445-28885/com.medicom.maven.debug D/OkHttp: {"email":"maventests+patient+17@gmail.com","firstName":"Patient17","lastName":"Patient","alternativeEmail":null,"phoneNumber":"+12672060413","alternativePhoneNumber":null,"gender":null,"address":"Some address","city":"Warsaw","language":"en","provinceId":null,"provinceName":null,"birthDate":null,"diagnosis":"HEMOPHILIA_A","roles":["ROLE_PATIENT"],"country":"US","countryName":"United States","newEmail":null,"newPhoneNumber":null,"treatmentCentreId":null,"hcp":null,"maxInactivityTimeInMin":30,"passwordExpiryDate":"2030-01-01T00:00:00Z","annualBleedRate":0.0,"abrAndAdherenceTimeFrame":365,"adherence":null,"active":null,"lastSyncDate":"2018-02-08T15:25:16Z","infusers":[]}
+02-08 16:25:18.429 28445-28885/com.medicom.maven.debug D/OkHttp: <-- END HTTP (676-byte body)
+02-08 16:25:18.486 28445-28489/com.medicom.maven.debug D/TasksManager: Start new task SynchronizePhotosChangesWithServerTask{patientId=170358}:908085
+02-08 16:25:18.513 28445-28445/com.medicom.maven.debug D/BaseAuthActivity: finalActions final
+02-08 16:25:18.628 28445-28445/com.medicom.maven.debug D/TasksManager: Start new task LoadCaregiverFromPatientsSharingTask{caregiverId=170358}:908085
+02-08 16:25:18.632 28445-28889/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/users/170358/sharing-requests/patients?withStats=false http/1.1
+02-08 16:25:18.632 28445-28889/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:18.632 28445-28889/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:18.662 28445-28889/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/users/170358/sharing-requests/patients?withStats=false (28ms)
+02-08 16:25:18.662 28445-28889/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:18.662 28445-28889/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:19 GMT
+02-08 16:25:18.662 28445-28889/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:18.662 28445-28889/com.medicom.maven.debug D/OkHttp: Content-Length: 2
+02-08 16:25:18.662 28445-28889/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:18.662 28445-28889/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:18.662 28445-28889/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:18.662 28445-28889/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:18.662 28445-28889/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:18.662 28445-28889/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:18.662 28445-28889/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:18.662 28445-28889/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:18.662 28445-28889/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:18.662 28445-28889/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:18.665 28445-28889/com.medicom.maven.debug D/OkHttp: []
+02-08 16:25:18.665 28445-28889/com.medicom.maven.debug D/OkHttp: <-- END HTTP (2-byte body)
+02-08 16:25:20.718 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:21.026 28445-28445/com.medicom.maven.debug I/chatty: uid=10135(u0_a135) com.medicom.maven.debug identical 40 lines
+02-08 16:25:21.026 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:21.540 28445-28467/com.medicom.maven.debug I/zygote64: Explicit concurrent copying GC freed 40403(2MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 5MB/10MB, paused 976us total 84.579ms
+02-08 16:25:21.964 28445-28475/com.medicom.maven.debug D/OpenGLRenderer: endAllActiveAnimators on 0x75f4423000 (RippleDrawable) with handle 0x75f544f520
+02-08 16:25:24.343 28445-28445/com.medicom.maven.debug D/BluetoothAdapter: startLeScan(): null
+02-08 16:25:24.348 28445-28445/com.medicom.maven.debug D/BluetoothAdapter: isLeEnabled(): ON
+02-08 16:25:24.352 28445-28459/com.medicom.maven.debug D/BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=7 mScannerId=0
+02-08 16:25:41.379 28445-28445/com.medicom.maven.debug D/InfusersSentry: Found 0 infusers
+02-08 16:25:47.768 28445-28445/com.medicom.maven.debug D/TasksManager: Start new task RegisterInfuserTask{patientId=170358, infuser=RegistrationInfuser{serialNumber=Maven-24-85, deviceIdentifier=null, deviceSubIdentifier=null, majorVersionNumber=null, minorVersionNumber=null, buildNumber=null, productionTime=null}}:281367714
+02-08 16:25:47.805 28445-28921/com.medicom.maven.debug D/OkHttp: --> POST https://test-maven.cogniance.com/api/v1/patients/170358/infusers http/1.1
+02-08 16:25:47.805 28445-28921/com.medicom.maven.debug D/OkHttp: Content-Type: application/json; charset=UTF-8
+02-08 16:25:47.805 28445-28921/com.medicom.maven.debug D/OkHttp: Content-Length: 30
+02-08 16:25:47.805 28445-28921/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:47.806 28445-28921/com.medicom.maven.debug D/OkHttp: {"serialNumber":"Maven-24-85"}
+02-08 16:25:47.806 28445-28921/com.medicom.maven.debug D/OkHttp: --> END POST (30-byte body)
+02-08 16:25:51.568 28445-28921/com.medicom.maven.debug D/OkHttp: <-- 201  https://test-maven.cogniance.com/api/v1/patients/170358/infusers (3761ms)
+02-08 16:25:51.568 28445-28921/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:51.568 28445-28921/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:51 GMT
+02-08 16:25:51.568 28445-28921/com.medicom.maven.debug D/OkHttp: Content-Length: 0
+02-08 16:25:51.568 28445-28921/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:51.568 28445-28921/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:51.568 28445-28921/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:51.569 28445-28921/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:51.569 28445-28921/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:51.569 28445-28921/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:51.569 28445-28921/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:51.569 28445-28921/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:51.569 28445-28921/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:51.569 28445-28921/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:51.569 28445-28921/com.medicom.maven.debug D/OkHttp: <-- END HTTP (0-byte body)
+02-08 16:25:51.573 28445-28921/com.medicom.maven.debug D/TasksManager: Start new task LoadUserProfileTask{userId=170358, refreshCountryAnyway=false}:1849625610
+02-08 16:25:51.578 28445-28924/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/users/170358 http/1.1
+02-08 16:25:51.578 28445-28924/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:51.578 28445-28924/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:53.000 28445-28924/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/users/170358 (1420ms)
+02-08 16:25:53.000 28445-28924/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:53.000 28445-28924/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:53 GMT
+02-08 16:25:53.000 28445-28924/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:53.000 28445-28924/com.medicom.maven.debug D/OkHttp: Content-Length: 801
+02-08 16:25:53.000 28445-28924/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:53.000 28445-28924/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:53.000 28445-28924/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:53.000 28445-28924/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:53.000 28445-28924/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:53.000 28445-28924/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:53.000 28445-28924/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:53.000 28445-28924/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:53.000 28445-28924/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:53.000 28445-28924/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:53.002 28445-28924/com.medicom.maven.debug D/OkHttp: {"email":"maventests+patient+17@gmail.com","firstName":"Patient17","lastName":"Patient","alternativeEmail":null,"phoneNumber":"+12672060413","alternativePhoneNumber":null,"gender":null,"address":"Some address","city":"Warsaw","language":"en","provinceId":null,"provinceName":null,"birthDate":null,"diagnosis":"HEMOPHILIA_A","roles":["ROLE_PATIENT"],"country":"US","countryName":"United States","newEmail":null,"newPhoneNumber":null,"treatmentCentreId":null,"hcp":null,"maxInactivityTimeInMin":30,"passwordExpiryDate":"2030-01-01T00:00:00Z","annualBleedRate":0.0,"abrAndAdherenceTimeFrame":365,"adherence":null,"active":null,"lastSyncDate":"2018-02-08T15:25:16Z","infusers":[{"lastSynchronizedEntryIndex":null,"serialNumber":"Maven-24-85","bindingDateTime":"2018-02-08T15:25:51Z","lastSyncDate":null}]}
+02-08 16:25:53.002 28445-28924/com.medicom.maven.debug D/OkHttp: <-- END HTTP (801-byte body)
+02-08 16:25:53.108 28445-28445/com.medicom.maven.debug D/BluetoothAdapter: stopLeScan()
+02-08 16:25:53.112 28445-28445/com.medicom.maven.debug D/BluetoothAdapter: isLeEnabled(): ON
+02-08 16:25:54.673 28445-28445/com.medicom.maven.debug D/TasksManager: Start new task LoadUserProfileTask{userId=170358, refreshCountryAnyway=false}:1849625610
+02-08 16:25:54.677 28445-28929/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/users/170358 http/1.1
+02-08 16:25:54.677 28445-28929/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:54.677 28445-28929/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:54.677 28445-28445/com.medicom.maven.debug D/TasksManager: Start new task LoadInjectionScheduleTask{patientId=170358}:908085
+02-08 16:25:54.682 28445-28930/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/patient/170358/injection-schedules http/1.1
+02-08 16:25:54.683 28445-28930/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:54.683 28445-28930/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:54.698 28445-28749/com.medicom.maven.debug D/TasksManager: Start new task SynchronizeInfusionsTask{patientId=170358, serialNumber2LastSyncDateMap={}, serialNumber2LastSyncEntryIndexMap={}}:-1613115299
+02-08 16:25:54.698 28445-28445/com.medicom.maven.debug D/TasksManager: Task already started LoadUserProfileTask{userId=170358, refreshCountryAnyway=false}:1849625610
+02-08 16:25:54.700 28445-28932/com.medicom.maven.debug D/TasksManager: Task already started LoadInjectionScheduleTask{patientId=170358}:908085
+02-08 16:25:54.701 28445-28445/com.medicom.maven.debug D/TasksManager: Start new task LoadPhoneBookTask{userId=170358}:908085
+02-08 16:25:54.718 28445-28935/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/users/170358/phone-book http/1.1
+02-08 16:25:54.719 28445-28935/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:54.719 28445-28935/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:54.726 28445-28452/com.medicom.maven.debug I/zygote64: Do full code cache collection, code=1007KB, data=663KB
+02-08 16:25:54.727 28445-28795/com.medicom.maven.debug D/TasksManager: Start new task SendSyncInfusionsTask{patientId=170358, syncInfusions=SyncInfusions{mobileAppLastSynchronization=2018-02-08T15:25:16.000, infusions=[]}}:-1544496781
+02-08 16:25:54.729 28445-28452/com.medicom.maven.debug I/zygote64: After code cache collection, code=997KB, data=585KB
+02-08 16:25:54.730 28445-28759/com.medicom.maven.debug D/TasksManager: Task already started SynchronizeInfusionsTask{patientId=170358, serialNumber2LastSyncDateMap={}, serialNumber2LastSyncEntryIndexMap={}}:-1613115299
+02-08 16:25:54.733 28445-28937/com.medicom.maven.debug D/OkHttp: --> POST https://test-maven.cogniance.com/api/v1/patients/170358/infusions/sync http/1.1
+02-08 16:25:54.733 28445-28937/com.medicom.maven.debug D/OkHttp: Content-Type: application/json; charset=UTF-8
+02-08 16:25:54.733 28445-28937/com.medicom.maven.debug D/OkHttp: Content-Length: 70
+02-08 16:25:54.733 28445-28937/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:54.733 28445-28937/com.medicom.maven.debug D/OkHttp: {"mobileAppLastSynchronization":"2018-02-08T15:25:16Z","infusions":[]}
+02-08 16:25:54.733 28445-28937/com.medicom.maven.debug D/OkHttp: --> END POST (70-byte body)
+02-08 16:25:54.763 28445-28930/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/patient/170358/injection-schedules (80ms)
+02-08 16:25:54.764 28445-28930/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:54.764 28445-28930/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:55 GMT
+02-08 16:25:54.764 28445-28930/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:54.764 28445-28930/com.medicom.maven.debug D/OkHttp: Content-Length: 2
+02-08 16:25:54.764 28445-28930/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:54.764 28445-28930/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:54.764 28445-28930/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:54.764 28445-28930/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:54.764 28445-28930/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:54.764 28445-28930/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:54.764 28445-28930/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:54.764 28445-28930/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:54.764 28445-28930/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:54.764 28445-28930/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:54.765 28445-28930/com.medicom.maven.debug D/OkHttp: []
+02-08 16:25:54.765 28445-28930/com.medicom.maven.debug D/OkHttp: <-- END HTTP (2-byte body)
+02-08 16:25:54.779 28445-28929/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/users/170358 (101ms)
+02-08 16:25:54.779 28445-28929/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:54.779 28445-28929/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:55 GMT
+02-08 16:25:54.779 28445-28929/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:54.779 28445-28929/com.medicom.maven.debug D/OkHttp: Content-Length: 801
+02-08 16:25:54.779 28445-28929/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:54.779 28445-28929/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:54.779 28445-28929/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:54.779 28445-28929/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:54.779 28445-28929/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:54.779 28445-28929/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:54.779 28445-28929/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:54.779 28445-28929/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:54.779 28445-28929/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:54.779 28445-28929/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:54.780 28445-28929/com.medicom.maven.debug D/OkHttp: {"email":"maventests+patient+17@gmail.com","firstName":"Patient17","lastName":"Patient","alternativeEmail":null,"phoneNumber":"+12672060413","alternativePhoneNumber":null,"gender":null,"address":"Some address","city":"Warsaw","language":"en","provinceId":null,"provinceName":null,"birthDate":null,"diagnosis":"HEMOPHILIA_A","roles":["ROLE_PATIENT"],"country":"US","countryName":"United States","newEmail":null,"newPhoneNumber":null,"treatmentCentreId":null,"hcp":null,"maxInactivityTimeInMin":30,"passwordExpiryDate":"2030-01-01T00:00:00Z","annualBleedRate":0.0,"abrAndAdherenceTimeFrame":365,"adherence":null,"active":null,"lastSyncDate":"2018-02-08T15:25:16Z","infusers":[{"lastSynchronizedEntryIndex":null,"serialNumber":"Maven-24-85","bindingDateTime":"2018-02-08T15:25:51Z","lastSyncDate":null}]}
+02-08 16:25:54.780 28445-28929/com.medicom.maven.debug D/OkHttp: <-- END HTTP (801-byte body)
+02-08 16:25:54.806 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.806 28445-28445/com.medicom.maven.debug I/chatty: uid=10135(u0_a135) com.medicom.maven.debug identical 2 lines
+02-08 16:25:54.806 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.838 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.855 28445-28445/com.medicom.maven.debug I/chatty: uid=10135(u0_a135) com.medicom.maven.debug identical 2 lines
+02-08 16:25:54.855 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.858 28445-28475/com.medicom.maven.debug D/OpenGLRenderer: endAllActiveAnimators on 0x75ee0bc800 (InsetDrawable) with handle 0x75f55874e0
+02-08 16:25:54.872 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.872 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.881 28445-28935/com.medicom.maven.debug D/OkHttp: <-- 204  https://test-maven.cogniance.com/api/v1/users/170358/phone-book (162ms)
+02-08 16:25:54.882 28445-28935/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:54.882 28445-28935/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:55 GMT
+02-08 16:25:54.882 28445-28935/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:54.882 28445-28935/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:54.882 28445-28935/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:54.882 28445-28935/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:54.882 28445-28935/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:54.882 28445-28935/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:54.882 28445-28935/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:54.882 28445-28935/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:54.882 28445-28935/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:54.882 28445-28935/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:54.882 28445-28935/com.medicom.maven.debug D/OkHttp: <-- END HTTP
+02-08 16:25:54.889 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.889 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.899 28445-28937/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/patients/170358/infusions/sync (165ms)
+02-08 16:25:54.899 28445-28937/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:54.899 28445-28937/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:55 GMT
+02-08 16:25:54.899 28445-28937/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:54.899 28445-28937/com.medicom.maven.debug D/OkHttp: Content-Length: 70
+02-08 16:25:54.899 28445-28937/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:54.899 28445-28937/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:54.899 28445-28937/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:54.899 28445-28937/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:54.899 28445-28937/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:54.899 28445-28937/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:54.900 28445-28937/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:54.900 28445-28937/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:54.900 28445-28937/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:54.900 28445-28937/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:54.900 28445-28937/com.medicom.maven.debug D/OkHttp: {"mobileAppLastSynchronization":"2018-02-08T15:25:54Z","infusions":[]}
+02-08 16:25:54.901 28445-28937/com.medicom.maven.debug D/OkHttp: <-- END HTTP (70-byte body)
+02-08 16:25:54.905 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.922 28445-28445/com.medicom.maven.debug I/chatty: uid=10135(u0_a135) com.medicom.maven.debug identical 2 lines
+02-08 16:25:54.922 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.937 28445-28773/com.medicom.maven.debug D/TasksManager: Start new task SendInfuserSynchronizationTask{patientId=170358, serialNumber2LastSyncTimeMap={}, serialNumber2LastSyncEntryIndexMap={}}:-1613115299
+02-08 16:25:54.939 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.939 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.941 28445-28827/com.medicom.maven.debug D/TasksManager: Start new task LoadMissedInfusionsTask{patientId=170358, range=[2017-02-08..2018-02-08]}:2017925889
+02-08 16:25:54.944 28445-28939/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/patients/170358/infusions/missed?startDate=2017-02-08&endDate=2018-02-08 http/1.1
+02-08 16:25:54.944 28445-28939/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:54.944 28445-28939/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:54.955 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.972 28445-28445/com.medicom.maven.debug I/chatty: uid=10135(u0_a135) com.medicom.maven.debug identical 2 lines
+02-08 16:25:54.972 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.983 28445-28939/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/patients/170358/infusions/missed?startDate=2017-02-08&endDate=2018-02-08 (39ms)
+02-08 16:25:54.983 28445-28939/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:54.983 28445-28939/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:55 GMT
+02-08 16:25:54.983 28445-28939/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:54.983 28445-28939/com.medicom.maven.debug D/OkHttp: Content-Length: 2
+02-08 16:25:54.984 28445-28939/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:54.984 28445-28939/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:54.984 28445-28939/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:54.984 28445-28939/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:54.984 28445-28939/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:54.984 28445-28939/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:54.984 28445-28939/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:54.984 28445-28939/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:54.984 28445-28939/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:54.984 28445-28939/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:54.985 28445-28939/com.medicom.maven.debug D/OkHttp: []
+02-08 16:25:54.985 28445-28939/com.medicom.maven.debug D/OkHttp: <-- END HTTP (2-byte body)
+02-08 16:25:54.989 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.989 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:54.990 28445-28830/com.medicom.maven.debug D/TasksManager: Start new task LoadUserProfileTask{userId=170358, refreshCountryAnyway=false}:1849625610
+02-08 16:25:54.993 28445-28940/com.medicom.maven.debug D/OkHttp: --> GET https://test-maven.cogniance.com/api/v1/users/170358 http/1.1
+02-08 16:25:54.993 28445-28940/com.medicom.maven.debug D/OkHttp: x-auth-token: usr:170358:tkn:5cc0708e-129c-4f5f-b5af-e0fabbc54370
+02-08 16:25:54.993 28445-28940/com.medicom.maven.debug D/OkHttp: --> END GET
+02-08 16:25:55.006 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:55.006 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:55.017 28445-28940/com.medicom.maven.debug D/OkHttp: <-- 200  https://test-maven.cogniance.com/api/v1/users/170358 (23ms)
+02-08 16:25:55.017 28445-28940/com.medicom.maven.debug D/OkHttp: Server: openresty/1.9.7.1
+02-08 16:25:55.017 28445-28940/com.medicom.maven.debug D/OkHttp: Date: Thu, 08 Feb 2018 15:25:55 GMT
+02-08 16:25:55.017 28445-28940/com.medicom.maven.debug D/OkHttp: Content-Type: application/json;charset=UTF-8
+02-08 16:25:55.017 28445-28940/com.medicom.maven.debug D/OkHttp: Content-Length: 801
+02-08 16:25:55.017 28445-28940/com.medicom.maven.debug D/OkHttp: Connection: keep-alive
+02-08 16:25:55.017 28445-28940/com.medicom.maven.debug D/OkHttp: X-Content-Type-Options: nosniff
+02-08 16:25:55.017 28445-28940/com.medicom.maven.debug D/OkHttp: X-XSS-Protection: 1; mode=block
+02-08 16:25:55.017 28445-28940/com.medicom.maven.debug D/OkHttp: Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+02-08 16:25:55.017 28445-28940/com.medicom.maven.debug D/OkHttp: Pragma: no-cache
+02-08 16:25:55.017 28445-28940/com.medicom.maven.debug D/OkHttp: Expires: 0
+02-08 16:25:55.017 28445-28940/com.medicom.maven.debug D/OkHttp: X-Frame-Options: DENY
+02-08 16:25:55.017 28445-28940/com.medicom.maven.debug D/OkHttp: app-version: 0.29.1358
+02-08 16:25:55.017 28445-28940/com.medicom.maven.debug D/OkHttp: Alternate-Protocol: 443:npn-spdy/3
+02-08 16:25:55.017 28445-28940/com.medicom.maven.debug D/OkHttp: Strict-Transport-Security: max-age=31536000; includeSubDomains;
+02-08 16:25:55.018 28445-28940/com.medicom.maven.debug D/OkHttp: {"email":"maventests+patient+17@gmail.com","firstName":"Patient17","lastName":"Patient","alternativeEmail":null,"phoneNumber":"+12672060413","alternativePhoneNumber":null,"gender":null,"address":"Some address","city":"Warsaw","language":"en","provinceId":null,"provinceName":null,"birthDate":null,"diagnosis":"HEMOPHILIA_A","roles":["ROLE_PATIENT"],"country":"US","countryName":"United States","newEmail":null,"newPhoneNumber":null,"treatmentCentreId":null,"hcp":null,"maxInactivityTimeInMin":30,"passwordExpiryDate":"2030-01-01T00:00:00Z","annualBleedRate":0.0,"abrAndAdherenceTimeFrame":365,"adherence":null,"active":null,"lastSyncDate":"2018-02-08T15:25:54Z","infusers":[{"lastSynchronizedEntryIndex":null,"serialNumber":"Maven-24-85","bindingDateTime":"2018-02-08T15:25:51Z","lastSyncDate":null}]}
+02-08 16:25:55.018 28445-28940/com.medicom.maven.debug D/OkHttp: <-- END HTTP (801-byte body)
+02-08 16:25:55.022 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:55.090 28445-28445/com.medicom.maven.debug I/chatty: uid=10135(u0_a135) com.medicom.maven.debug identical 8 lines
+02-08 16:25:55.090 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:55.097 28445-28780/com.medicom.maven.debug D/TasksManager: Start new task SynchronizePhotosChangesWithServerTask{patientId=170358}:908085
+02-08 16:25:55.106 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:55.140 28445-28445/com.medicom.maven.debug I/chatty: uid=10135(u0_a135) com.medicom.maven.debug identical 4 lines
+02-08 16:25:55.140 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:57.797 28445-28452/com.medicom.maven.debug I/zygote64: Do partial code cache collection, code=1007KB, data=613KB
+02-08 16:25:57.801 28445-28452/com.medicom.maven.debug I/zygote64: After code cache collection, code=1007KB, data=613KB
+02-08 16:25:57.801 28445-28452/com.medicom.maven.debug I/zygote64: Increasing code cache capacity to 3MB
+02-08 16:25:57.817 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:25:58.110 28445-28445/com.medicom.maven.debug I/chatty: uid=10135(u0_a135) com.medicom.maven.debug identical 40 lines
+02-08 16:25:58.110 28445-28445/com.medicom.maven.debug W/RecyclerView: RecyclerView does not support scrolling to an absolute position. Use scrollToPosition instead
+02-08 16:26:04.709 28445-28445/com.medicom.maven.debug E/ActivityThread: Activity com.medicom.maven.activity.ScanDeviceActivity has leaked ServiceConnection com.medicom.maven.activity.ScanDeviceActivity$2@c6fb48b that was originally bound here
+                                                                         android.app.ServiceConnectionLeaked: Activity com.medicom.maven.activity.ScanDeviceActivity has leaked ServiceConnection com.medicom.maven.activity.ScanDeviceActivity$2@c6fb48b that was originally bound here
+                                                                             at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:1514)
+                                                                             at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:1406)
+                                                                             at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1589)
+                                                                             at android.app.ContextImpl.bindService(ContextImpl.java:1541)
+                                                                             at android.content.ContextWrapper.bindService(ContextWrapper.java:678)
+                                                                             at com.medicom.maven.infuser.service.InfuserDeviceService.bindService(InfuserDeviceService.java:275)
+                                                                             at com.medicom.maven.activity.ScanDeviceActivity.connectToService(ScanDeviceActivity.java:222)
+                                                                             at com.medicom.maven.activity.ScanDeviceActivity.access$000(ScanDeviceActivity.java:61)
+                                                                             at com.medicom.maven.activity.ScanDeviceActivity$1.onFinish(ScanDeviceActivity.java:116)
+                                                                             at com.medicom.maven.infuser.usecase.InfuserPermissionsUseCase.requestEnableLocation(InfuserPermissionsUseCase.java:125)
+                                                                             at com.medicom.maven.infuser.usecase.InfuserPermissionsUseCase.lambda$requestLocationPermissionAnyway$3(InfuserPermissionsUseCase.java:94)
+                                                                             at com.medicom.maven.infuser.usecase.InfuserPermissionsUseCase$$Lambda$3.accept(Unknown Source:6)
+                                                                             at io.reactivex.internal.observers.LambdaObserver.onNext(LambdaObserver.java:60)
+                                                                             at io.reactivex.internal.operators.observable.ObservableFlatMap$MergeObserver.tryEmitScalar(ObservableFlatMap.java:234)
+                                                                             at io.reactivex.internal.operators.observable.ObservableFlatMap$MergeObserver.subscribeInner(ObservableFlatMap.java:146)
+                                                                             at io.reactivex.internal.operators.observable.ObservableFlatMap$MergeObserver.onNext(ObservableFlatMap.java:139)
+                                                                             at io.reactivex.internal.operators.observable.ObservableBuffer$BufferExactObserver.onNext(ObservableBuffer.java:113)
+                                                                             at io.reactivex.internal.operators.observable.ObservableFlatMap$MergeObserver.tryEmit(ObservableFlatMap.java:262)
+                                                                             at io.reactivex.internal.operators.observable.ObservableFlatMap$InnerObserver.onNext(ObservableFlatMap.java:559)
+                                                                             at io.reactivex.observers.SerializedObserver.onNext(SerializedObserver.java:113)
+                                                                             at io.reactivex.internal.operators.observable.ObservableConcatMap$SourceObserver$InnerObserver.onNext(ObservableConcatMap.java:249)
+                                                                             at io.reactivex.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:265)
+                                                                             at io.reactivex.subjects.PublishSubject.onNext(PublishSubject.java:184)
+                                                                             at com.tbruyelle.rxpermissions2.RxPermissionsFragment.onRequestPermissionsResult(RxPermissionsFragment.java:64)
+                                                                             at com.tbruyelle.rxpermissions2.RxPermissionsFragment.onRequestPermissionsResult(RxPermissionsFragment.java:49)
+                                                                             at android.app.Activity.dispatchRequestPermissionsResultToFragment(Activity.java:7398)
+                                                                             at android.app.Activity.dispatchActivityResult(Activity.java:7243)
+                                                                             at android.app.ActivityThread.deliverResults(ActivityThread.java:4320)
+                                                                             at android.app.ActivityThread.handleSendResult(ActivityThread.java:4367)
+                                                                             at android.app.ActivityThread.-wrap19(Unknown Source:0)
+                                                                             at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1649)
+                                                                             at android.os.Handler.dispatchMessage(Handler.java:105)
+                                                                             at android.os.Looper.loop(Looper.java:164)
+                                                                             at android.app.ActivityThread.main(ActivityThread.java:6541)
+                                                                             at java.lang.reflect.Method.invoke(Native Method)
+                                                                             at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+                                                                             at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)
+02-08 16:26:09.851 28445-28467/com.medicom.maven.debug I/zygote64: Explicit concurrent copying GC freed 68367(3MB) AllocSpace objects, 1(16KB) LOS objects, 49% free, 5MB/10MB, paused 1.643ms total 133.599ms
+02-08 16:26:11.409 28445-28445/com.medicom.maven.debug D/InfusersSentry: Found 1 infusers
+02-08 16:26:11.438 28445-28445/com.medicom.maven.debug D/InfusersSentry: Switch to foreground iteration
+02-08 16:26:11.441 28445-28445/com.medicom.maven.debug D/BluetoothAdapter: startLeScan(): null
+02-08 16:26:11.444 28445-28445/com.medicom.maven.debug D/BluetoothAdapter: isLeEnabled(): ON
+02-08 16:26:11.450 28445-28896/com.medicom.maven.debug D/BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=7 mScannerId=0
+02-08 16:26:41.467 28445-28445/com.medicom.maven.debug D/InfusersSentry: Found 1 infusers
+02-08 16:26:41.478 28445-28445/com.medicom.maven.debug D/InfusersSentry: Switch to foreground iteration
+02-08 16:27:11.511 28445-28445/com.medicom.maven.debug D/InfusersSentry: Found 1 infusers
+02-08 16:27:11.526 28445-28445/com.medicom.maven.debug D/InfusersSentry: Switch to foreground iteration
+02-08 16:27:41.545 28445-28445/com.medicom.maven.debug D/InfusersSentry: Found 1 infusers
+02-08 16:27:41.567 28445-28445/com.medicom.maven.debug D/InfusersSentry: Switch to foreground iteration
+02-08 16:28:11.585 28445-28445/com.medicom.maven.debug D/InfusersSentry: Found 1 infusers
+02-08 16:28:11.603 28445-28445/com.medicom.maven.debug D/InfusersSentry: Switch to foreground iteration
+02-08 16:28:13.759 28445-28458/com.medicom.maven.debug I/zygote64: Background concurrent copying GC freed 147686(5MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 5MB/10MB, paused 1.560ms total 101.867ms
+02-08 16:28:41.633 28445-28445/com.medicom.maven.debug D/InfusersSentry: Found 1 infusers
+02-08 16:28:41.649 28445-28445/com.medicom.maven.debug D/InfusersSentry: Switch to foreground iteration
+02-08 16:29:11.678 28445-28445/com.medicom.maven.debug D/InfusersSentry: Found 1 infusers
+02-08 16:29:11.693 28445-28445/com.medicom.maven.debug D/InfusersSentry: Switch to foreground iteration
+02-08 16:29:41.722 28445-28445/com.medicom.maven.debug D/InfusersSentry: Found 1 infusers
+02-08 16:29:41.734 28445-28445/com.medicom.maven.debug D/InfusersSentry: Switch to foreground iteration
+02-08 16:30:11.759 28445-28445/com.medicom.maven.debug D/InfusersSentry: Found 1 infusers
+02-08 16:30:11.770 28445-28445/com.medicom.maven.debug D/InfusersSentry: Switch to foreground iteration
+02-08 16:30:41.802 28445-28445/com.medicom.maven.debug D/InfusersSentry: Found 1 infusers
+02-08 16:30:41.815 28445-28445/com.medicom.maven.debug D/InfusersSentry: Switch to foreground iteration
+02-08 16:31:11.845 28445-28445/com.medicom.maven.debug D/InfusersSentry: Found 1 infusers
+02-08 16:31:11.859 28445-28445/com.medicom.maven.debug D/InfusersSentry: Switch to foreground iteration
+02-08 16:31:41.886 28445-28445/com.medicom.maven.debug D/InfusersSentry: Found 1 infusers
+02-08 16:31:41.897 28445-28445/com.medicom.maven.debug D/InfusersSentry: Switch to foreground iteration
